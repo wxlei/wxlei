@@ -1,0 +1,27 @@
+{
+  "name": "xm1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bower": "^1.7.9"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-respond":"*",
+    "gulp-connect":"*",
+    "gulp-minify-css":"*",
+    "gulp-concat":"*",
+    "gulp-uglify":"*",
+    "gulp-rename":"*",
+    "gulp-ng-annotate":"*",
+    "gulp-ngmin":"*",
+    "gulp-clean":"*",
+    "gulp-imagemin":"*"
+    },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
