@@ -1,0 +1,141 @@
+html, body, .container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.container {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+.musices_header {
+  width: 100%;
+  height: .9rem;
+  background: #0AAFD2; }
+  .musices_header a {
+    display: block;
+    position: absolute;
+    left: .3rem;
+    top: .28rem; }
+    .musices_header a img {
+      width: .17rem;
+      height: .3.2rem; }
+  .musices_header h1 {
+    text-align: center;
+    line-height: .9rem;
+    color: #fff;
+    font-size: .33rem; }
+
+.musices_nav {
+  width: 100%;
+  height: .65rem;
+  border-bottom: 1px solid #ccc; }
+  .musices_nav ul {
+    display: -webkit-flex; }
+    .musices_nav ul li {
+      width: 19%;
+      display: inline-block;
+      line-height: .65rem;
+      padding: 0 .29rem; }
+      .musices_nav ul li a {
+        display: block;
+        text-align: center; }
+    .musices_nav ul li:nth-of-type(1) a {
+      color: #0BAFD3; }
+  .musices_nav .on {
+    border: 1px solid #0BAFD3;
+    width: 19%;
+    position: relative;
+    left: .29rem; }
+
+.musices_main {
+  -webkit-flex: 1;
+  width: 100%; }
+  .musices_main .home {
+    width: 100%; }
+    .musices_main .home ul {
+      width: 100%; }
+      .musices_main .home ul li {
+        width: 100%;
+        height: .86rem;
+        border-bottom: 1px solid #ccc; }
+        .musices_main .home ul li dl {
+          width: 90%;
+          margin: auto;
+          display: -webkit-flex;
+          position: relative; }
+          .musices_main .home ul li dl dt {
+            position: absolute;
+            top: .2rem;
+            right: 0; }
+            .musices_main .home ul li dl dt img {
+              width: .24rem;
+              height: .14rem; }
+          .musices_main .home ul li dl dd {
+            padding-top: .1rem; }
+            .musices_main .home ul li dl dd h5 {
+              font-size: .21rem; }
+            .musices_main .home ul li dl dd p span {
+              padding-left: .1rem;
+              font-size: .18rem; }
+      .musices_main .home ul li:nth-of-type(1) {
+        width: 100%;
+        height: .7rem; }
+        .musices_main .home ul li:nth-of-type(1) dl {
+          width: 90%;
+          margin: auto;
+          display: -webkit-flex; }
+          .musices_main .home ul li:nth-of-type(1) dl dt {
+            position: absolute;
+            left: 0;
+            top: .15rem; }
+            .musices_main .home ul li:nth-of-type(1) dl dt img {
+              width: .4rem;
+              height: .4rem; }
+          .musices_main .home ul li:nth-of-type(1) dl dd {
+            padding-left: .6rem; }
+            .musices_main .home ul li:nth-of-type(1) dl dd h2 {
+              line-height: .7rem;
+              font-size: .28rem; }
+
+.musices_footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 1.08rem;
+  background: #0BAFD3; }
+  .musices_footer dl {
+    width: 100%;
+    background: #0BAFD3;
+    display: -webkit-flex; }
+    .musices_footer dl dt {
+      padding: .12rem .3rem; }
+      .musices_footer dl dt img {
+        width: .72rem;
+        height: .72rem; }
+    .musices_footer dl dd {
+      -webkit-flex: 1;
+      padding-top: .12rem;
+      position: relative; }
+      .musices_footer dl dd h6 {
+        line-height: .4rem;
+        font-size: .21rem;
+        color: #fff; }
+      .musices_footer dl dd p {
+        line-height: .4rem;
+        font-size: .18rem;
+        color: #fff; }
+      .musices_footer dl dd .img1 {
+        width: .46rem;
+        height: .46rem;
+        display: block;
+        position: absolute;
+        top: .26rem;
+        right: 1rem; }
+      .musices_footer dl dd .img2 {
+        position: absolute;
+        width: .33rem;
+        height: .28rem;
+        top: .35rem;
+        right: .34rem; }
+
+/*# sourceMappingURL=download_music.css.map */

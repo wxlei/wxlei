@@ -1,0 +1,98 @@
+html,body,.login_warp{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	
+}
+.login_warp{
+	display:-webkit-flex;
+	-webkit-flex-direction:column;
+	background:url("../images/yd-bg1.jpg");
+	background-size:100%;
+}
+.login_header{
+	width:100%;
+	height:.9rem;
+	background:#0AAFD2;
+	h1{
+		text-align: center;
+		line-height: .9rem;
+		color:#fff;
+		font-size: .33rem;
+	}
+}
+.bigbox{
+	width:100%;
+	height:100%;
+	background:#000;
+	opacity: 0.4;
+	position: absolute;
+	top:0;
+	right:0;
+
+}
+.login{
+	position: relative;
+	z-index: 99999;
+}
+.login_main{
+		form{
+			width:80%;
+			height:4rem;
+			border: 1px solid #ccc;
+			border-radius: 10px;
+			margin: 2rem auto 0;
+			input{
+				width:90%;
+				height:.9rem;
+				border:1px solid #ccc;
+				font-size:.38rem;
+				padding-left:.2rem;
+				display:block;
+				margin: .2rem auto;	
+				border-radius: 10px;		
+			}
+			input:nth-of-type(1){
+				position:relative;
+				top:.2rem;
+			}
+			input:nth-of-type(2){
+				position:relative;
+				top:.2rem;
+			}
+			.btn{
+				width: 94.5%;
+				margin: auto;
+				display: -webkit-flex;
+				height:.9rem;
+				position: relative;
+				top:.2rem;
+				
+				button{
+					border: none;
+					width: 45%;
+					display: block;
+					border: 1px solid #ccc;
+					border-radius: 10px;
+					margin-left: .2rem;
+					background:#0AAFD2;
+					color:#fff;
+				}
+			}
+			
+	}
+
+
+
+	.but{
+		width:80%;
+		height:.9rem;
+		background:#0AAFD2;
+		display: block;
+		margin: .2rem auto;
+		text-align: center;
+		line-height: .9rem;
+		color:#fff;
+		border-radius: 10px;
+	}
+}

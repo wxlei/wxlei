@@ -1,0 +1,394 @@
+html, body, .container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.container {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+.music_header {
+  width: 100%;
+  height: .9rem;
+  background: #0bafd3;
+  position: relative; }
+  .music_header h1 {
+    text-align: center;
+    line-height: .9rem;
+    color: #fff; }
+    .music_header h1 span {
+      display: inline-block; }
+    .music_header h1 span:nth-of-type(2) {
+      font-size: .33rem;
+      padding: 0 .2rem; }
+  .music_header a:nth-of-type(1) {
+    display: block;
+    position: absolute;
+    left: .4rem;
+    top: .28rem; }
+    .music_header a:nth-of-type(1) img {
+      width: .38rem;
+      height: .34rem; }
+  .music_header a:nth-of-type(2) {
+    display: block;
+    position: absolute;
+    right: .4rem;
+    top: .2rem; }
+    .music_header a:nth-of-type(2) i {
+      color: #fff;
+      font-size: .38rem; }
+
+.nav {
+  width: 90%;
+  height: .65rem;
+  margin: auto;
+  position: relative; }
+  .nav ul {
+    display: -webkit-flex; }
+    .nav ul li {
+      -webkit-flex: 1;
+      text-align: center;
+      line-height: .65rem; }
+    .nav ul .on {
+      color: #0AAFD2; }
+  .nav .sad {
+    width: 20%;
+    border-top: 2px solid #0AAFD2;
+    position: absolute;
+    left: 0;
+    bottom: 0; }
+
+/*----------------music----------------------*/
+.music_main {
+  -webkit-flex: 1;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+  .music_main .countes {
+    width: 500%;
+    height: 100%;
+    overflow: hidden;
+    display: -webkit-flex;
+    background: #fff; }
+  .music_main .mus {
+    width: 20%;
+    height: auto;
+    overflow: hidden; }
+  .music_main #banner {
+    width: 100%;
+    overflow: hidden; }
+    .music_main #banner ul {
+      width: 300%;
+      display: -webkit-flex; }
+      .music_main #banner ul li {
+        -webkit-flex: 1; }
+        .music_main #banner ul li img {
+          width: 100%;
+          height: auto;
+          display: block; }
+  .music_main .box {
+    width: 90%;
+    margin: auto; }
+    .music_main .box .top {
+      padding: .4rem 0;
+      display: -webkit-flex; }
+      .music_main .box .top a {
+        display: block;
+        -webkit-flex: 1;
+        text-align: center;
+        line-height: .4rem; }
+        .music_main .box .top a img {
+          width: .4rem;
+          height: .4rem;
+          position: relative;
+          top: .1rem; }
+        .music_main .box .top a span {
+          padding-left: .1rem; }
+    .music_main .box .cen {
+      margin-top: .3rem;
+      width: 100%; }
+      .music_main .box .cen h1 {
+        text-align: center;
+        font-size: .25rem; }
+      .music_main .box .cen .tw {
+        width: 100%; }
+        .music_main .box .cen .tw dl {
+          display: inline-block;
+          margin-top: .3rem; }
+          .music_main .box .cen .tw dl dt {
+            padding-left: .4rem; }
+            .music_main .box .cen .tw dl dt img {
+              width: 1.64rem;
+              height: 1.64rem; }
+          .music_main .box .cen .tw dl dd {
+            padding-left: .4rem;
+            width: 1.64rem;
+            font-size: .19rem; }
+
+/*----------------second----------------------*/
+.second {
+  background: #EAEAEB;
+  -webkit-flex: 1; }
+  .second h1 {
+    line-height: .64rem;
+    font-size: .26rem;
+    padding-left: .2rem; }
+  .second dl {
+    width: 100%;
+    height: 1.82rem;
+    background: #fff;
+    position: relative;
+    margin-top: .2rem;
+    display: -webkit-flex; }
+    .second dl dt {
+      margin-left: .1rem;
+      margin-top: .1rem; }
+      .second dl dt img {
+        width: 1.61rem;
+        height: 1.63rem; }
+    .second dl dd {
+      -webkit-flex: 1;
+      margin-left: .2rem; }
+      .second dl dd h2 {
+        font-size: .25rem;
+        padding-top: .12rem;
+        color: #000; }
+        .second dl dd h2 span {
+          color: #666; }
+    .second dl a {
+      display: block;
+      position: absolute;
+      top: .75rem;
+      right: .52rem; }
+      .second dl a img {
+        width: .17rem;
+        height: .3rem; }
+  .second dl:nth-of-type(1) {
+    margin-top: 0; }
+
+/*----------------list----------------------*/
+.muslist {
+  -webkit-flex: 1;
+  overflow-y: auto; }
+  .muslist #banner1 {
+    width: 100%;
+    overflow: hidden; }
+    .muslist #banner1 ul {
+      width: 300%;
+      display: -webkit-flex; }
+      .muslist #banner1 ul li {
+        -webkit-flex: 1; }
+        .muslist #banner1 ul li img {
+          width: 100%;
+          height: auto;
+          display: block; }
+  .muslist .result {
+    width: 100%; }
+    .muslist .result h1 {
+      line-height: .64rem;
+      padding-left: .3rem;
+      font-size: .25rem; }
+  .muslist .boxs {
+    width: 100%;
+    margin: 0 .3rem; }
+    .muslist .boxs dl {
+      width: 2.1rem;
+      display: inline-block;
+      margin-left: .12rem;
+      margin-top: .16rem; }
+      .muslist .boxs dl dt img {
+        width: 2.09rem;
+        height: 1.81rem; }
+      .muslist .boxs dl dd h6 {
+        font-size: .2rem; }
+
+/*----------------dt----------------------*/
+.dt {
+  -webkit-flex: 1;
+  background: #E9E9EB; }
+
+.pics {
+  width: 100%;
+  height: 6.75rem;
+  margin-top: .1rem;
+  background: #fff; }
+
+.big {
+  width: 90%;
+  margin: auto;
+  display: -webkit-flex; }
+  .big a {
+    display: block;
+    width: 3.14rem;
+    margin-top: .16rem; }
+    .big a dl {
+      width: 3.14rem;
+      height: 3.14rem;
+      position: relative; }
+      .big a dl dt img {
+        width: 3.14rem;
+        height: 3.14rem; }
+      .big a dl dd {
+        width: 3.14rem;
+        height: .51rem;
+        background: #000;
+        opacity: 0.3;
+        position: absolute;
+        left: 0;
+        bottom: 0; }
+      .big a dl span {
+        position: absolute;
+        left: 1.1rem;
+        bottom: .1rem;
+        color: #fff;
+        font-size: .22rem; }
+  .big a:nth-of-type(2) {
+    margin-left: .5rem; }
+
+.small {
+  width: 90%;
+  margin: auto; }
+  .small a {
+    display: inline-block;
+    width: 1.51rem;
+    margin-top: .12rem;
+    margin-left: .1rem; }
+    .small a dl {
+      width: 1.51rem;
+      height: 1.51rem;
+      position: relative; }
+      .small a dl dt img {
+        width: 1.51rem;
+        height: 1.51rem; }
+      .small a dl dd {
+        width: 1.51rem;
+        height: .35rem;
+        background: #000;
+        opacity: 0.3;
+        position: absolute;
+        left: 0;
+        bottom: 0; }
+      .small a dl span {
+        position: absolute;
+        left: .25rem;
+        bottom: .02rem;
+        color: #fff;
+        font-size: .22rem; }
+
+.ppzb {
+  width: 100%;
+  background: #fff;
+  margin-top: .2rem; }
+  .ppzb ul {
+    width: 96.6%;
+    margin: auto; }
+    .ppzb ul li {
+      width: 100%;
+      height: 1rem;
+      border-bottom: 1px solid #ccc;
+      display: -webkit-flex; }
+      .ppzb ul li .pic2 {
+        width: .55rem;
+        height: .55rem;
+        margin: .24rem 0 0 .19rem; }
+      .ppzb ul li p {
+        -webkit-flex: 1;
+        line-height: 1rem;
+        margin-left: .2rem;
+        font-size: .25rem; }
+      .ppzb ul li .pic1 {
+        width: .15rem;
+        height: .23rem;
+        margin: 0.37rem 0.19rem 0 0; }
+
+/*----------------mvs----------------------*/
+.mvs {
+  -webkit-flex: 1;
+  overflow-y: auto; }
+  .mvs #banner2 {
+    width: 100%;
+    overflow: hidden; }
+    .mvs #banner2 ul {
+      width: 300%;
+      display: -webkit-flex; }
+      .mvs #banner2 ul li {
+        -webkit-flex: 1; }
+        .mvs #banner2 ul li img {
+          width: 100%;
+          height: auto;
+          display: block; }
+  .mvs .naves ul {
+    width: 100%;
+    height: 2.01rem;
+    display: -webkit-flex; }
+    .mvs .naves ul li {
+      -webkit-flex: 1; }
+      .mvs .naves ul li a {
+        display: block;
+        text-align: center;
+        position: relative;
+        top: .38rem; }
+        .mvs .naves ul li a img {
+          width: .85rem;
+          height: .85rem; }
+        .mvs .naves ul li a p {
+          font-size: .27rem;
+          line-height: .47rem; }
+  .mvs .mvsb {
+    width: 90%;
+    margin: auto; }
+    .mvs .mvsb h1 {
+      width: 100%;
+      font-size: .27rem;
+      line-height: .67rem;
+      position: relative; }
+      .mvs .mvsb h1 a {
+        position: absolute;
+        right: .2rem;
+        font-size: .2rem; }
+    .mvs .mvsb .pics1 {
+      width: 100%;
+      height: auto; }
+
+.music_footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 1.08rem;
+  background: #0BAFD3; }
+  .music_footer dl {
+    width: 100%;
+    background: #0BAFD3;
+    display: -webkit-flex; }
+    .music_footer dl dt {
+      padding: .12rem .3rem; }
+      .music_footer dl dt img {
+        width: .72rem;
+        height: .72rem; }
+    .music_footer dl dd {
+      -webkit-flex: 1;
+      padding-top: .12rem;
+      position: relative; }
+      .music_footer dl dd h6 {
+        line-height: .4rem;
+        font-size: .21rem;
+        color: #fff; }
+      .music_footer dl dd p {
+        line-height: .4rem;
+        font-size: .18rem;
+        color: #fff; }
+      .music_footer dl dd .img1 {
+        width: .46rem;
+        height: .46rem;
+        display: block;
+        position: absolute;
+        top: .26rem;
+        right: 1rem; }
+      .music_footer dl dd .img2 {
+        position: absolute;
+        width: .33rem;
+        height: .28rem;
+        top: .35rem;
+        right: .34rem; }
+
+/*# sourceMappingURL=music.css.map */

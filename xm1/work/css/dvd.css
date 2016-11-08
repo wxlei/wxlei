@@ -1,0 +1,158 @@
+html, body, .container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.container {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+.dvd_header {
+  width: 100%;
+  height: .9rem;
+  background: #0AAFD2;
+  position: relative; }
+  .dvd_header a {
+    display: block; }
+    .dvd_header a img {
+      position: absolute;
+      left: .3rem;
+      top: .08rem;
+      width: .1rem;
+      height: .2rem; }
+  .dvd_header h1 {
+    text-align: center;
+    line-height: .9rem;
+    color: #fff;
+    font-size: .33rem; }
+
+.dvd_nav {
+  width: 90%;
+  height: .65rem;
+  margin: auto;
+  position: relative; }
+  .dvd_nav ul {
+    display: -webkit-flex; }
+    .dvd_nav ul li {
+      -webkit-flex: 1;
+      text-align: center;
+      line-height: .65rem; }
+    .dvd_nav ul .on {
+      color: #0AAFD2; }
+  .dvd_nav .sad {
+    width: 25%;
+    border-top: 2px solid #0AAFD2;
+    position: absolute;
+    left: 0;
+    bottom: 0; }
+
+.dvd_countes {
+  -webkit-flex: 1;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+  .dvd_countes .boxs {
+    width: 400%;
+    height: 10.7rem;
+    overflow: hidden;
+    display: -webkit-flex; }
+  .dvd_countes .box1 {
+    -webkit-flex: 1;
+    width: 25%;
+    overflow-y: auto; }
+    .dvd_countes .box1 #banner {
+      width: 100%;
+      overflow: hidden; }
+      .dvd_countes .box1 #banner ul {
+        width: 300%;
+        display: -webkit-flex; }
+        .dvd_countes .box1 #banner ul li {
+          -webkit-flex: 1; }
+          .dvd_countes .box1 #banner ul li img {
+            width: 100%;
+            height: auto;
+            display: block; }
+    .dvd_countes .box1 .context {
+      width: 95%;
+      margin: auto; }
+      .dvd_countes .box1 .context h1 {
+        line-height: .6rem;
+        font-size: .27rem; }
+      .dvd_countes .box1 .context dl {
+        width: 100%;
+        height: 1.63rem;
+        margin-top: .38rem;
+        display: -webkit-flex; }
+        .dvd_countes .box1 .context dl dt img {
+          width: 1.61rem;
+          height: 1.63rem; }
+        .dvd_countes .box1 .context dl dd {
+          -webkit-flex: 1;
+          padding-left: .34rem; }
+          .dvd_countes .box1 .context dl dd h6 {
+            font-size: .26rem;
+            line-height: .45rem;
+            color: #000; }
+          .dvd_countes .box1 .context dl dd p {
+            font-size: .22rem;
+            line-height: .43rem;
+            color: #666; }
+          .dvd_countes .box1 .context dl dd p:nth-of-type(3) {
+            text-align: right; }
+            .dvd_countes .box1 .context dl dd p:nth-of-type(3) span {
+              font-size: .25rem;
+              color: #000; }
+            .dvd_countes .box1 .context dl dd p:nth-of-type(3) a {
+              color: #137095; }
+      .dvd_countes .box1 .context dl:nth-of-type(1) {
+        margin-top: 0; }
+  .dvd_countes .box2 {
+    -webkit-flex: 1;
+    background: red; }
+  .dvd_countes .box3 {
+    -webkit-flex: 1; }
+  .dvd_countes .box4 {
+    -webkit-flex: 1; }
+
+.dvd_footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 1.08rem;
+  background: #0BAFD3; }
+  .dvd_footer dl {
+    width: 100%;
+    background: #0BAFD3;
+    display: -webkit-flex; }
+    .dvd_footer dl dt {
+      padding: .12rem .3rem; }
+      .dvd_footer dl dt img {
+        width: .72rem;
+        height: .72rem; }
+    .dvd_footer dl dd {
+      -webkit-flex: 1;
+      padding-top: .12rem;
+      position: relative; }
+      .dvd_footer dl dd h6 {
+        line-height: .4rem;
+        font-size: .21rem;
+        color: #fff; }
+      .dvd_footer dl dd p {
+        line-height: .4rem;
+        font-size: .18rem;
+        color: #fff; }
+      .dvd_footer dl dd .img1 {
+        width: .46rem;
+        height: .46rem;
+        display: block;
+        position: absolute;
+        top: .26rem;
+        right: 1rem; }
+      .dvd_footer dl dd .img2 {
+        position: absolute;
+        width: .33rem;
+        height: .28rem;
+        top: .35rem;
+        right: .34rem; }
+
+/*# sourceMappingURL=dvd.css.map */

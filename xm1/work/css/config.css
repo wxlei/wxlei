@@ -1,0 +1,67 @@
+html, body, .container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.container {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+.config_header {
+  width: 100%;
+  height: .9rem;
+  background: #0AAFD2;
+  position: relative; }
+  .config_header a {
+    display: block;
+    position: absolute;
+    left: .3rem;
+    top: .1rem; }
+    .config_header a img {
+      width: .1rem;
+      height: .2rem; }
+  .config_header h1 {
+    text-align: center;
+    line-height: .9rem;
+    color: #fff;
+    font-size: .33rem; }
+
+.config_count {
+  width: 100%;
+  -webkit-flex: 1; }
+  .config_count ul {
+    background: #efefef;
+    width: 100%; }
+    .config_count ul li {
+      width: 100%;
+      height: .93rem;
+      background: #fff;
+      position: relative;
+      border: 1px solid #ccc; }
+      .config_count ul li p {
+        line-height: .93rem;
+        padding-left: .2rem; }
+      .config_count ul li a {
+        width: .96rem;
+        height: .5rem;
+        display: block;
+        position: absolute;
+        right: .2rem;
+        top: .3rem;
+        color: #999; }
+        .config_count ul li a img {
+          width: .18rem;
+          height: .24rem;
+          margin-left: .5rem; }
+        .config_count ul li a span {
+          width: .97rem;
+          height: .51rem;
+          display: block;
+          background: url("../img/1.png") no-repeat;
+          background-size: 100% 100%; }
+    .config_count ul li:first-child a {
+      color: #000; }
+  .config_count .on {
+    margin-top: .3rem; }
+
+/*# sourceMappingURL=config.css.map */

@@ -1,0 +1,118 @@
+html, body, .container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.container {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+.lately_header {
+  width: 100%;
+  height: .9rem;
+  background: #0AAFD2;
+  position: relative; }
+  .lately_header a {
+    display: block;
+    position: absolute;
+    left: .3rem;
+    top: .28rem; }
+    .lately_header a img {
+      width: .1rem;
+      height: .2rem; }
+  .lately_header h1 {
+    text-align: center;
+    line-height: .9rem;
+    color: #fff;
+    font-size: .33rem; }
+
+.lately_main {
+  -webkit-flex: 1;
+  width: 100%; }
+  .lately_main .home {
+    width: 100%; }
+    .lately_main .home ul {
+      width: 100%; }
+      .lately_main .home ul li {
+        width: 100%;
+        height: .86rem;
+        border-bottom: 1px solid #ccc; }
+        .lately_main .home ul li dl {
+          width: 90%;
+          margin: auto;
+          display: -webkit-flex;
+          position: relative; }
+          .lately_main .home ul li dl dt {
+            position: absolute;
+            top: .2rem;
+            right: 0; }
+            .lately_main .home ul li dl dt img {
+              width: .24rem;
+              height: .14rem; }
+          .lately_main .home ul li dl dd {
+            padding-top: .1rem; }
+            .lately_main .home ul li dl dd h5 {
+              font-size: .21rem; }
+            .lately_main .home ul li dl dd p span {
+              padding-left: .1rem;
+              font-size: .18rem; }
+      .lately_main .home ul li:nth-of-type(1) {
+        width: 100%;
+        height: .7rem; }
+        .lately_main .home ul li:nth-of-type(1) dl {
+          width: 90%;
+          margin: auto;
+          display: -webkit-flex; }
+          .lately_main .home ul li:nth-of-type(1) dl dt {
+            position: absolute;
+            left: 0;
+            top: .15rem; }
+            .lately_main .home ul li:nth-of-type(1) dl dt img {
+              width: .4rem;
+              height: .4rem; }
+          .lately_main .home ul li:nth-of-type(1) dl dd {
+            padding-left: .6rem; }
+            .lately_main .home ul li:nth-of-type(1) dl dd h2 {
+              line-height: .7rem;
+              font-size: .28rem; }
+
+.lately_footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 1.08rem;
+  background: #0BAFD3; }
+  .lately_footer dl {
+    width: 100%;
+    background: #0BAFD3;
+    display: -webkit-flex; }
+    .lately_footer dl dt {
+      padding: .12rem .3rem; }
+      .lately_footer dl dt img {
+        width: .72rem;
+        height: .72rem; }
+    .lately_footer dl dd {
+      -webkit-flex: 1;
+      padding-top: .12rem;
+      position: relative; }
+      .lately_footer dl dd h6 {
+        font-size: .21rem;
+        color: #fff; }
+      .lately_footer dl dd p {
+        font-size: .18rem;
+        color: #fff; }
+      .lately_footer dl dd .img1 {
+        width: .46rem;
+        height: .46rem;
+        display: block;
+        position: absolute;
+        top: .26rem;
+        right: 1rem; }
+      .lately_footer dl dd .img2 {
+        position: absolute;
+        width: .33rem;
+        height: .28rem;
+        top: .35rem;
+        right: .34rem; }
+
+/*# sourceMappingURL=lately.css.map */

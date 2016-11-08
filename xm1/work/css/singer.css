@@ -1,0 +1,95 @@
+html, body, .container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.container {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+.singer_header {
+  width: 100%;
+  height: .9rem;
+  background: #0AAFD2;
+  position: relative; }
+  .singer_header a {
+    display: block;
+    position: absolute;
+    left: .3rem;
+    top: .28rem; }
+    .singer_header a img {
+      width: .17rem;
+      height: .31rem; }
+  .singer_header h1 {
+    text-align: center;
+    line-height: .9rem;
+    color: #fff;
+    font-size: .33rem; }
+
+.singer_main {
+  -webkit-flex: 1;
+  overflow: hidden; }
+  .singer_main ul {
+    width: 100%;
+    background: #DFDEDE; }
+    .singer_main ul li {
+      height: .8rem;
+      border-bottom: 1px solid #ccc;
+      background: #fff;
+      position: relative; }
+      .singer_main ul li p {
+        line-height: .8rem;
+        font-size: .25rem;
+        margin-left: .33rem; }
+      .singer_main ul li a {
+        position: absolute;
+        right: .34rem;
+        top: .20rem; }
+        .singer_main ul li a img {
+          width: .16rem;
+          height: .23rem; }
+    .singer_main ul .mt {
+      margin-top: .25rem; }
+
+.singer_footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 1.08rem;
+  background: #0BAFD3; }
+  .singer_footer dl {
+    width: 100%;
+    background: #0BAFD3;
+    display: -webkit-flex; }
+    .singer_footer dl dt {
+      padding: .12rem .3rem; }
+      .singer_footer dl dt img {
+        width: .72rem;
+        height: .72rem; }
+    .singer_footer dl dd {
+      -webkit-flex: 1;
+      padding-top: .05rem;
+      position: relative; }
+      .singer_footer dl dd h6 {
+        line-height: .4rem;
+        font-size: .21rem;
+        color: #fff; }
+      .singer_footer dl dd p {
+        line-height: .4rem;
+        font-size: .18rem;
+        color: #fff; }
+      .singer_footer dl dd .img1 {
+        width: .46rem;
+        height: .46rem;
+        display: block;
+        position: absolute;
+        top: .26rem;
+        right: 1rem; }
+      .singer_footer dl dd .img2 {
+        position: absolute;
+        width: .33rem;
+        height: .28rem;
+        top: .35rem;
+        right: .34rem; }
+
+/*# sourceMappingURL=singer.css.map */

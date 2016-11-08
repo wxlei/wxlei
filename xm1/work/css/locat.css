@@ -1,0 +1,265 @@
+html, body, .container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.container {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+.locat_header {
+  width: 100%;
+  height: .9rem;
+  background: #0AAFD2;
+  position: relative; }
+  .locat_header a {
+    display: block;
+    position: absolute;
+    left: .3rem;
+    top: .28rem; }
+    .locat_header a img {
+      width: .1rem;
+      height: .2rem; }
+  .locat_header h1 {
+    text-align: center;
+    line-height: .9rem;
+    color: #fff;
+    font-size: .33rem; }
+
+.locat_nav {
+  width: 100%;
+  height: .65rem;
+  border-bottom: 1px solid #ccc; }
+  .locat_nav ul {
+    display: -webkit-flex; }
+    .locat_nav ul li {
+      width: 19%;
+      display: inline-block;
+      line-height: .65rem;
+      padding: 0 .29rem; }
+      .locat_nav ul li a {
+        display: block;
+        text-align: center; }
+    .locat_nav ul li:nth-of-type(1) a {
+      color: #0BAFD3; }
+  .locat_nav .on {
+    border: 1px solid #0BAFD3;
+    width: 19%;
+    position: relative;
+    left: .29rem; }
+
+.locat_main {
+  -webkit-flex: 1;
+  width: 100%; }
+  .locat_main .home {
+    width: 100%; }
+    .locat_main .home ul {
+      width: 100%; }
+      .locat_main .home ul li {
+        width: 100%;
+        height: .86rem;
+        border-bottom: 1px solid #ccc; }
+        .locat_main .home ul li dl {
+          width: 90%;
+          margin: auto;
+          display: -webkit-flex;
+          position: relative; }
+          .locat_main .home ul li dl dt {
+            position: absolute;
+            top: .2rem;
+            right: 0; }
+            .locat_main .home ul li dl dt img {
+              width: .24rem;
+              height: .14rem; }
+          .locat_main .home ul li dl dd {
+            padding-top: .1rem; }
+            .locat_main .home ul li dl dd h5 {
+              font-size: .21rem; }
+            .locat_main .home ul li dl dd p span {
+              padding-left: .1rem;
+              font-size: .18rem; }
+      .locat_main .home ul li:nth-of-type(1) {
+        width: 100%;
+        height: .7rem; }
+        .locat_main .home ul li:nth-of-type(1) dl {
+          width: 90%;
+          margin: auto;
+          display: -webkit-flex; }
+          .locat_main .home ul li:nth-of-type(1) dl dt {
+            position: absolute;
+            left: 0;
+            top: .15rem; }
+            .locat_main .home ul li:nth-of-type(1) dl dt img {
+              width: .4rem;
+              height: .4rem; }
+          .locat_main .home ul li:nth-of-type(1) dl dd {
+            padding-left: .6rem; }
+            .locat_main .home ul li:nth-of-type(1) dl dd h2 {
+              line-height: .7rem;
+              font-size: .28rem; }
+
+.singer {
+  -webkit-flex: 1;
+  width: 100%;
+  position: relative; }
+  .singer h1 {
+    text-align: center;
+    margin-top: 1.24rem;
+    font-size: .24rem; }
+  .singer p {
+    text-align: center;
+    padding: .36rem 0 0 0;
+    font-size: .22rem; }
+  .singer .img1 {
+    width: 2.56rem;
+    height: 2.56rem;
+    position: absolute;
+    top: 4.26rem;
+    left: 2.48rem; }
+  .singer .img2 {
+    width: .77rem;
+    height: .77rem;
+    position: absolute;
+    left: 3.38rem;
+    bottom: 1.14rem; }
+
+.musices {
+  width: 100%; }
+  .musices ul {
+    width: 100%; }
+    .musices ul li {
+      width: 100%;
+      height: .86rem;
+      border-bottom: 1px solid #ccc; }
+      .musices ul li dl {
+        width: 90%;
+        margin: auto;
+        display: -webkit-flex;
+        position: relative; }
+        .musices ul li dl dt {
+          position: absolute;
+          top: .2rem;
+          right: 0; }
+          .musices ul li dl dt img {
+            width: .24rem;
+            height: .14rem; }
+        .musices ul li dl dd {
+          padding-top: .1rem; }
+          .musices ul li dl dd h5 {
+            font-size: .21rem; }
+          .musices ul li dl dd span {
+            padding-left: .1rem;
+            font-size: .18rem; }
+
+.love {
+  -webkit-flex: 1;
+  width: 100%;
+  position: relative;
+  text-align: center; }
+  .love .loveimg {
+    width: 2.56rem;
+    height: 2.56rem;
+    position: absolute;
+    top: 1.45rem;
+    left: 2.48rem; }
+  .love h2 {
+    margin-top: 4.35rem;
+    font-size: .24rem; }
+  .love p {
+    margin-top: .28rem;
+    font-size: .22rem; }
+  .love span {
+    display: block;
+    width: 3.58rem;
+    height: .64rem;
+    border: 1px solid #0BAFD3;
+    border-radius: 5px;
+    color: #339999;
+    line-height: .64rem;
+    text-align: center;
+    margin: .28rem auto 0; }
+
+.mv {
+  -webkit-flex: 1;
+  width: 100%;
+  background: #F0F0F0; }
+  .mv .count {
+    width: 100%;
+    height: 2.58rem;
+    background: #fff;
+    margin: auto; }
+    .mv .count h1 {
+      padding: .17rem .3rem;
+      font-size: .21rem;
+      position: relative; }
+      .mv .count h1 a {
+        position: absolute;
+        right: .3rem;
+        top: .17rem; }
+        .mv .count h1 a img {
+          width: .14rem;
+          height: .25rem; }
+        .mv .count h1 a span {
+          font-size: .23rem;
+          padding-right: .2rem; }
+    .mv .count dl {
+      width: 100%;
+      padding: 0 .3rem;
+      display: -webkit-flex; }
+      .mv .count dl dt img {
+        width: 1.67rem;
+        height: 1.56rem; }
+      .mv .count dl dd {
+        padding: .36rem 0 0 .3rem; }
+        .mv .count dl dd h5 {
+          font-size: .25rem;
+          color: #000; }
+        .mv .count dl dd p {
+          padding-top: .14rem; }
+          .mv .count dl dd p span {
+            font-size: .19rem;
+            padding: .1rem .1rem 0 .1rem;
+            color: #666; }
+
+.locat_footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 1.08rem;
+  background: #0BAFD3; }
+  .locat_footer dl {
+    width: 100%;
+    background: #0BAFD3;
+    display: -webkit-flex; }
+    .locat_footer dl dt {
+      padding: .12rem .3rem; }
+      .locat_footer dl dt img {
+        width: .72rem;
+        height: .72rem; }
+    .locat_footer dl dd {
+      -webkit-flex: 1;
+      padding-top: .12rem;
+      position: relative; }
+      .locat_footer dl dd h6 {
+        line-height: .4rem;
+        font-size: .21rem;
+        color: #fff; }
+      .locat_footer dl dd p {
+        line-height: .4rem;
+        font-size: .18rem;
+        color: #fff; }
+      .locat_footer dl dd .img1 {
+        width: .46rem;
+        height: .46rem;
+        display: block;
+        position: absolute;
+        top: .26rem;
+        right: 1rem; }
+      .locat_footer dl dd .img2 {
+        position: absolute;
+        width: .33rem;
+        height: .28rem;
+        top: .35rem;
+        right: .34rem; }
+
+/*# sourceMappingURL=locat.css.map */

@@ -1,0 +1,86 @@
+.sound_header {
+  width: 100%;
+  height: .9rem;
+  background: #0AAFD2;
+  position: relative; }
+  .sound_header a {
+    display: block;
+    position: absolute;
+    left: .3rem;
+    top: .28rem; }
+    .sound_header a img {
+      width: .17rem;
+      height: .31rem; }
+  .sound_header h1 {
+    text-align: center;
+    line-height: .9rem;
+    color: #fff;
+    font-size: .33rem; }
+
+.sound_main {
+  -webkit-flex: 1;
+  width: 100%;
+  position: relative; }
+  .sound_main h1 {
+    text-align: center;
+    margin-top: 1.24rem;
+    font-size: .24rem; }
+  .sound_main p {
+    text-align: center;
+    padding: .36rem 0 0 0;
+    font-size: .22rem; }
+  .sound_main .img1 {
+    width: 2.56rem;
+    height: 2.56rem;
+    position: absolute;
+    top: 4.26rem;
+    left: 2.48rem; }
+  .sound_main .img2 {
+    width: .77rem;
+    height: .77rem;
+    position: absolute;
+    left: 3.38rem;
+    bottom: 1.14rem; }
+
+.sound_footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 1.08rem;
+  background: #0BAFD3; }
+  .sound_footer dl {
+    width: 100%;
+    background: #0BAFD3;
+    display: -webkit-flex; }
+    .sound_footer dl dt {
+      padding: .12rem .3rem; }
+      .sound_footer dl dt img {
+        width: .72rem;
+        height: .72rem; }
+    .sound_footer dl dd {
+      -webkit-flex: 1;
+      padding-top: .12rem;
+      position: relative; }
+      .sound_footer dl dd h6 {
+        line-height: .4rem;
+        font-size: .21rem;
+        color: #fff; }
+      .sound_footer dl dd p {
+        line-height: .4rem;
+        font-size: .18rem;
+        color: #fff; }
+      .sound_footer dl dd .img1 {
+        width: .46rem;
+        height: .46rem;
+        display: block;
+        position: absolute;
+        top: .26rem;
+        right: 1rem; }
+      .sound_footer dl dd .img2 {
+        position: absolute;
+        width: .33rem;
+        height: .28rem;
+        top: .35rem;
+        right: .34rem; }
+
+/*# sourceMappingURL=sound.css.map */
